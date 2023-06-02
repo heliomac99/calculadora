@@ -1,7 +1,6 @@
 import calculadora
 import pytest
 
-collect_ignore = ["setup.py"]
 
 def test_add():
     assert calculadora.add(2, 3) == 5
