@@ -24,13 +24,6 @@
     <Compile Include="calculadora.py" />
     <Compile Include="calculadoraTeste.py" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include=".github\" />
-    <Folder Include=".github\workflows\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include=".github\workflows\main.yml" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
