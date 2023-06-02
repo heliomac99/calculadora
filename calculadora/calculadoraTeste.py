@@ -12,4 +12,4 @@ def test_multiply():
     assert calculadora.multiply(4, 5) == 20
 
 def test_divide():
-    assert calculadora.divide(10, 2) == 5
+    assert calculadora.divide(4, 2) == 2
